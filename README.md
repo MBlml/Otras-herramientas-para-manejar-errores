@@ -6,8 +6,10 @@ Genera un reporte con otras herramientas para el manejo de errores en progra-mac
 Tomando como referencia el ejemplo que dio el profesor durante la clase para el manejo del error de división por 0.
 
 ### DESARROLLO:
+### INSTRUCCIONES TRY, THROW Y CATCH
 Una excepción es un evento que ocurre durante la ejecución de un programa que interrumpe el flujo normal de la ejecución. 
 Cuando una excepción es lanzada, el control se transfiere a un bloque _“catch”_ específico que puede manejar la excepción.
+
 En C++, hay dos formas principales de manejar errores y excepciones: 
 > 1.- _return_ para devolver un valor de error o un código de error específico desde una función. Por ejemplo, si una función devuelve un entero, se puede devolver un valor negativo para indicar un error (-1).
 
@@ -15,9 +17,10 @@ En C++, hay dos formas principales de manejar errores y excepciones:
 
 Para complementar el manejo de excepciones en C++ se realiza mediante las instrucciones _try y catch_:
 
-_Try_ se utiliza para indicar el código que se desea proteger. 
-_Catch_ toma como argumento el tipo de excepción que se espera capturar. 
-El control se transfiere al bloque catch correspondiente si se lanza una excep-ción del tipo especificado.
+> _Try_ se utiliza para indicar el código que se desea proteger. 
+
+> _Catch_ toma como argumento el tipo de excepción que se espera capturar. 
+El control se transfiere al bloque catch correspondiente si se lanza una excepción del tipo especificado.
 
 ### EJEMPLO:
 ```c++
@@ -78,5 +81,5 @@ a fallas, a simples rasgos sería el código puesto en práctica o ejemplo.
 
 
 ### REFERENCIAS:
-_Corob-Msft. (2022, 26 octubre). Instrucciones try, throw y catch (C++). Microsoft Learn.
-Recuperado 24 de enero de 2023, de [https://learn.microsoft.com/es-es/cpp/cpp/try-throw-and-catch-statements-cpp?view=msvc-170](https://learn.microsoft.com/es-es/cpp/cpp/try-throw-and-catch-statements-cpp?view=msvc-170)_
+_Corob-Msft. (2022, 26 octubre). Instrucciones try, throw y catch (C++). Microsoft Learn._
+_Recuperado 24 de enero de 2023, de [https://learn.microsoft.com/es-es/cpp/cpp/try-throw-and-catch-statements-cpp?view=msvc-170](https://learn.microsoft.com/es-es/cpp/cpp/try-throw-and-catch-statements-cpp?view=msvc-170)_
