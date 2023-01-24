@@ -20,7 +20,8 @@ _Catch_ toma como argumento el tipo de excepción que se espera capturar.
 El control se transfiere al bloque catch correspondiente si se lanza una excep-ción del tipo especificado.
 
 #### EJEMPLO:
-```try {
+```c++
+try {
     //código que puede lanzar una excepción
 } catch (ExcepcionTipo1 &e) {
     // manejar excepción tipo 1
@@ -32,7 +33,7 @@ El control se transfiere al bloque catch correspondiente si se lanza una excep-c
 #### EJEMPLO EN PRACTICA:
 El objetivo de la practica es manejar excepciones en la división por cero para entender el funcionamiento básico de este método.
 
---------------------------------------------------------------------------------------------------------------------------------
+```c++
 #include <iostream>
 using namespace std;
 int main() {
@@ -67,8 +68,7 @@ int main() {
     }
    return 0;
 }
-
---------------------------------------------------------------------------------------------------------------------------------
+```
 
 #### CONCLUSIÓN:
 En resumen, el manejo de errores y excepciones en C++ se puede realizar mediante el uso de la instrucción return para devolver 
