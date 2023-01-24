@@ -7,13 +7,13 @@ int main() {
     int opc = 1;
    
     while(opc != 0) {
-	   	cout << "Intento de division por cero con 'Try & Catch'" << endl << endl;
+	    cout << "Intento de division por cero con 'Try & Catch'" << endl << endl;
 	    cout << "x = ";
 	    cin >> x;
 	    cout << "y = ";
 	    cin >> y;
 	    
-	    //Código que se desea proteger
+	    //CÃ³digo que se desea proteger
 	    try { 
 	    	if (y == 0) {
 	    		//Se lanza la excpecion con el metodo throw
@@ -26,7 +26,7 @@ int main() {
 	        }
 	    }
 	   
-	    //Captura la excepción y muestra el mensaje de error en la consola.
+	    //Captura la excepciÃ³n y muestra el mensaje de error en la consola.
 	    catch (const char* msg) {
 	    	cerr << msg << endl;
 	    }
