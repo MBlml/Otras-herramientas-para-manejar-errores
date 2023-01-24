@@ -20,13 +20,14 @@ _Catch_ toma como argumento el tipo de excepción que se espera capturar.
 El control se transfiere al bloque catch correspondiente si se lanza una excep-ción del tipo especificado.
 
 #### EJEMPLO:
-try {
+```try {
     //código que puede lanzar una excepción
 } catch (ExcepcionTipo1 &e) {
     // manejar excepción tipo 1
 } catch (ExcepcionTipo2 &e) {
     // manejar excepción tipo 2
 }
+```
 
 #### EJEMPLO EN PRACTICA:
 El objetivo de la practica es manejar excepciones en la división por cero para entender el funcionamiento básico de este método.
@@ -78,4 +79,4 @@ a fallas, a simples rasgos sería el código puesto en práctica o ejemplo.
 
 #### REFERENCIAS:
 _Corob-Msft. (2022, 26 octubre). Instrucciones try, throw y catch (C++). Microsoft Learn.
-Recuperado 24 de enero de 2023, de_ [https://learn.microsoft.com/es-es/cpp/cpp/try-throw-and-catch-statements-cpp?view=msvc-170_](https://learn.microsoft.com/es-es/cpp/cpp/try-throw-and-catch-statements-cpp?view=msvc-170)
+Recuperado 24 de enero de 2023, de [https://learn.microsoft.com/es-es/cpp/cpp/try-throw-and-catch-statements-cpp?view=msvc-170](https://learn.microsoft.com/es-es/cpp/cpp/try-throw-and-catch-statements-cpp?view=msvc-170)_
