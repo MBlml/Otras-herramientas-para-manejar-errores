@@ -14,6 +14,7 @@ En C++, hay dos formas principales de manejar errores y excepciones:
 > 2.- _throw_ para lanzar excepciones inmediatamente imprimiéndose en pantalla. 
 
 Para complementar el manejo de excepciones en C++ se realiza mediante las instrucciones _try y catch_:
+
 _Try_ se utiliza para indicar el código que se desea proteger. 
 _Catch_ toma como argumento el tipo de excepción que se espera capturar. 
 El control se transfiere al bloque catch correspondiente si se lanza una excep-ción del tipo especificado.
