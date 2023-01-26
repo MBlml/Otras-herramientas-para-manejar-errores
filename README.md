@@ -36,6 +36,8 @@ try {
 ### EJEMPLO EN PRACTICA:
 El objetivo de la practica es manejar excepciones en la división por cero para entender el funcionamiento básico de este método.
 
+##### _El codigo se puede descargar en el archivo de la parte superior_
+
 ```c++
 #include <iostream>
 using namespace std;
